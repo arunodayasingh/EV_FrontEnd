@@ -1,4 +1,22 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+    reactStrictMode: true,
+    i18n: {
+      locales: ["en", "hi"],
+      defaultLocale: "en",
+    },
 
-module.exports = nextConfig
+    async rewrites() {
+      return [
+  
+        {
+          source: "/",
+          destination: "/",
+        },
+       
+      ];
+    },
+  };
+  
+  module.exports = nextConfig;
+  

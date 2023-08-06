@@ -20,7 +20,7 @@ function Main({ children, isBanner, banner, secondaryNavigation, isBannerAd }: P
 
    const seo: any = {
     title: 'EVWheelsHub.com',
-    description: 'EVWheelsHub.com save environment',
+    description: 'drive ecofriendly vehicle, save environment',
   }
 
   return (

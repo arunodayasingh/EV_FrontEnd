@@ -152,7 +152,7 @@ export default function Navigation({navigation}:any) {
           aria-label="Home"
         >
           <Image
-            alt="91trucks"
+            alt="ecoWheels"
             // src={config.LOGO}
             src=""
             width="100"
@@ -164,7 +164,7 @@ export default function Navigation({navigation}:any) {
 
 
         {/* icon search popup */}
-        {
+        {/* {
           isMobile &&
           <div className="flex flex-row absolute top-5 right-4 justify-end place-content-end lg:flex lg:mx-auto lg:items-center ">
             <button aria-label="Search" onClick={handleSearchIsOpen} className="flex flex-row gap-2">
@@ -177,12 +177,13 @@ export default function Navigation({navigation}:any) {
                 </g>
               </svg>
             </button>
-            {/* <UserSearch isOpen={isOpenSearch} handleSearch={handleSearchIsOpen} setIsOpen={setIsOpenSearch} /> */}
+            <UserSearch isOpen={isOpenSearch} handleSearch={handleSearchIsOpen} setIsOpen={setIsOpenSearch} />
           </div>
-        }
+        } */}
 
         {/* for userCity Selection */}
-        <div className="flex flex-row absolute top-5 right-12 justify-end place-content-end lg:flex lg:mx-auto lg:items-center z-30">
+          
+        {/* <div className="flex flex-row absolute top-5 right-12 justify-end place-content-end lg:flex lg:mx-auto lg:items-center z-30">
           <button aria-label='Select City' onClick={handleCityIsOpen} className="flex flex-row gap-2">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 26">
               <g fill="none" fillRule="evenodd">
@@ -190,15 +191,15 @@ export default function Navigation({navigation}:any) {
                 <path fill="#111111" className="h-5 w-5" fillRule="nonzero" stroke="#111111" strokeWidth=".5" d="M12.373 23.833c-.2.223-.547.223-.746 0C5.883 17.413 3 12.495 3 9c0-5.276 3.724-9 9-9s9 3.724 9 9c0 3.495-2.883 8.414-8.627 14.833zM20 9c0-4.724-3.276-8-8-8S4 4.276 4 9c0 3.1 2.66 7.707 8 13.748C17.34 16.708 20 12.1 20 9zm-8-4c2.21 0 4 1.79 4 4s-1.79 4-4 4-4-1.79-4-4 1.79-4 4-4zm0 1c-1.657 0-3 1.343-3 3s1.343 3 3 3 3-1.343 3-3-1.343-3-3-3z" transform="translate(0 1)" />
               </g>
             </svg>
-            {/* {
-              !isMobile &&
+           
+              {!isMobile &&
               <span className="cursor-pointer items-center text-sm">
                 {userData?.city}
               </span>
-            }
-        <SelectUserCity isOpen={isOpenCity} handleCity={handleCityIsOpen} setIsOpen={setIsOpenCity} isPricePage={isPricePage} /> */}
+            <SelectUserCity isOpen={isOpenCity} handleCity={handleCityIsOpen} setIsOpen={setIsOpenCity} isPricePage={isPricePage} /> 
+      }
         </button>
-        </div>
+        </div> */}
 
 
         {!isMobile && (

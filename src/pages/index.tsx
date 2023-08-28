@@ -7,6 +7,7 @@ export default function Home() {
 
     const banner = (
         <div className="relative">
+            <p className="text-lg">hi</p>
             <div className="w-full " >
                 <Image
                     src=""

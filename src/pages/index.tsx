@@ -17,6 +17,7 @@ export default function Home() {
                     priority
                 />
             </div>
+            
 
             <div className="lg:container pt-2 mx-auto">
                 <div className="lg:w-1/5 px-2 lg:absolute text-white lg:top-20 -top-28">

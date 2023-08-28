@@ -19,8 +19,9 @@ interface Props {
 function Main({ children, isBanner, banner, secondaryNavigation, isBannerAd }: Props) {
 
    const seo: any = {
-    title: 'EVWheelsHub.com',
-    description: 'drive ecofriendly vehicle, save environment',
+    title: 'EcoWheelsHub.com',
+    description: 'drive Ecofriendly vehicle, save environment',
+    image:""
   }
 
   return (
@@ -28,7 +29,7 @@ function Main({ children, isBanner, banner, secondaryNavigation, isBannerAd }: P
     <>
       <Head>
          <title>{seo.title}</title>
-        {/* <meta charSet="utf-8" content={image} /> */}
+        <meta charSet="utf-8" content={seo.image} />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="description" content={seo.description} />
       </Head>

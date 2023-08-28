@@ -128,7 +128,7 @@ export default function Navigation({navigation}:any) {
 
   return (
     <header>
-      <nav className="relative px-4 py-2 lg:py-4 flex items-center bg-white border-b-2 border-primary z-50">
+      <nav className="relative px-4 py-2 lg:py-4 flex items-center bg border-b-2 border-primary z-50">
         <div className="lg:hidden">
           <button
             name="button"
@@ -142,6 +142,7 @@ export default function Navigation({navigation}:any) {
                 <span className="rounded block w-7 h-0.5 bg-gray-600"></span>
                 <span className="rounded block w-4 h-0.5 bg-gray-600 float-right"></span>
               </div>
+              
             </div>
           </button>
         </div>

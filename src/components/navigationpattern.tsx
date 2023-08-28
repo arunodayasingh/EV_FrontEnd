@@ -9,55 +9,32 @@ export const navigationmenu = [
             items: [
               {
                 name: "New Electic Cars",
-                url: "/cars",
+                url: "/new-electic-cars",
                 items: [],
               },
               {
                 name: "Popular Electic Cars",
-                url: "",
-                items: [
-                  
-                ],
+                url: "/popular-electic-cars",
+                items: [],
               },
               {
                 name: "Find New Electic Cars",
-                url: "/three-wheelers/filter",
+                url: "/electic-car/filter",
                 items: [],
               },
               {
-                name: "Three Wheeler Brands",
-                url: "",
-                items: [
-                  {
-                    name: "Mahindra Three-Wheelers",
-                    url: "/three-wheelers/mahindra",
-                    items: [],
-                  },
-                  {
-                    name: "Euler Motors Three-Wheelers",
-                    url: "/three-wheelers/euler-motors",
-                    items: [],
-                  },
-                  {
-                    name: " Piaggio Three Wheelers",
-                    url: "/three-wheelers/piaggio",
-                    items: [],
-                  },
-                  {
-                    name: "TVS Three Wheelers",
-                    url: "/three-wheelers/tvs",
-                    items: [],
-                  },
-                ],
+                name: "Electric Car Brands",
+                url: "/electic-car-brands",
+                items:[],
               },
               {
-                name: "Three Wheelers Dealers",
-                url: "/three-wheeler-dealers",
+                name: "Electric Car Dealers",
+                url: "/electic-car-dealers",
                 items: [],
               },
               {
-                name: "Compare Three Wheelers",
-                url: "/compare-three-wheeler",
+                name: "Compare Electric Car",
+                url: "/compare-electic-car",
                 items: [],
               },
             ],
@@ -71,31 +48,7 @@ export const navigationmenu = [
           name: "Popular Trucks",
           url: "",
           items: [
-            {
-              name: "Ashok Leyland Dost",
-              url: "/trucks/ashok-leyland/dost",
-              items: [],
-            },
-            {
-              name: "Tata Ace Gold",
-              url: "/trucks/tata/ace-gold",
-              items: [],
-            },
-            {
-              name: "Tata Intra V30",
-              url: "/trucks/tata/intra-v30",
-              items: [],
-            },
-            {
-              name: "Tata Intra V10",
-              url: "/trucks/tata/intra-v10",
-              items: [],
-            },
-            {
-              name: "Bolero Camper Gold ZX",
-              url: "/trucks/mahindra/bolero-camper",
-              items: [],
-            },
+            
           ],
         },
         {
@@ -328,85 +281,6 @@ export const navigationmenu = [
       ],
     },
     {
-      name: "Tyres",
-      url: "/",
-      items: [
-        {
-          name: "Truck Tyres",
-          url: "/truck-tyres",
-          items: [],
-        },
-        {
-          name: "Bus Tyres",
-          url: "/bus-tyres",
-          items: [],
-        },
-        {
-          name: "Three Wheelers Tyres",
-          url: "/three-wheeler-tyres",
-          items: [],
-        },
-        {
-          name: "Tractor Tyres",
-          url: "/tractor-tyres",
-          items: [],
-        },
-        // {
-        //   name: "Tyres Dealer",
-        //   url: "#",
-        //   items: [
-        //     {
-        //       name: "Truck Tyres Dealer",
-        //       url: "/trucks-tyres-dealers",
-        //       items: [],
-        //     },
-        //     {
-        //       name: "Bus Tyres Dealer",
-        //       url: "/buses-tyres-dealers",
-        //       items: [],
-        //     },
-        //     {
-        //       name: "Three Wheeler Tyres Dealer",
-        //       url: "/three-wheeler-tyres-dealers",
-        //       items: [],
-        //     },
-        //     {
-        //       name: "Tractor Tyres Dealer",
-        //       url: "/tractors-tyres-dealers",
-        //       items: [],
-        //     },
-        //   ],
-        // },
-        // {
-        //   name: 'Compare Tyres',
-        //   url: '',
-        //   items: [
-        //     {
-        //       name: 'Compare Truck Tyres',
-        //       url: '/compare-truck-tyres',
-        //       items: []
-        //     },
-        //     {
-        //       name: 'Compare Bus Tyres',
-        //       url: '/compare-bus-tyres',
-        //       items: []
-        //     },
-        //     {
-        //       name: 'Compare Three-Wheelers Tyres',
-        //       url: '/compare-three-wheeler-tyres',
-        //       items: []
-        //     },
-        //     {
-        //       name: 'Compare Tractor Tyres',
-        //       url: '/compare-tractor-Tyres',
-        //       items: []
-        //     },
-
-        //   ]
-        // },
-      ],
-    },
-    {
       name: "News",
       url: "/news",
       items: [
@@ -442,22 +316,6 @@ export const navigationmenu = [
         },
       ],
     },
-    {
-      name: "Store",
-      url: "/store",
-      items: [
-        {
-          name: "Our Store",
-          url: "/store",
-          items: [],
-        },
-        {
-          name: "Gurugram",
-          url: "/used-trucks",
-          items: [],
-        },
-
-      ],
-    },
+    
 
   ];
